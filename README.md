@@ -23,6 +23,8 @@ Usage:
 Example: 
    `python acr2yaml.py ~/glossaries/acronyms.tex acronyms.yml`
 
+Example input and output files have been supplied above.
+
 ## Status
 
 It works with Python 3.12.
