@@ -1,0 +1,322 @@
+---
+acronyms:
+  keys:
+    -   key: advi
+        shortname: ADVI
+        longname: Automatic Differentiation Variational Inference
+    -   key: aed
+        shortname: AED
+        longname: Associative Experimental Design
+    -   key: aic
+        shortname: AIC
+        longname: Akaile Information Criterion
+    -   key: ancova
+        shortname: ANCOVA
+        longname: analysis of covariance
+    -   key: anova
+        shortname: ANOVA
+        longname: analysis of variance
+    -   key: aws
+        shortname: AWS
+        longname: Amazon.com Web Services
+    -   key: bda
+        shortname: BDA
+        longname: Bayesian data analysis
+    -   key: best
+        shortname: BEST
+        longname: Bayesian Estimation Supercedes the T-test
+    -   key: bic
+        shortname: BIC
+        longname: Bayesian Information Criterion
+    -   key: bn
+        shortname: BN
+        longname: Bayesian Network
+    -   key: bp
+        shortname: BP
+        longname: Belief Propagation
+    -   key: bugs
+        shortname: BUGS
+        longname: Bayesian inference Using Gibbs Sampling
+    -   key: cli
+        shortname: CLI
+        longname: Command Line Interface
+    -   key: cmd
+        shortname: CMD
+        longname: Conventional Model Discrimination
+    -   key: cri
+        shortname: CRI
+        longname: Credible Interval
+    -   key: dbn
+        shortname: DBN
+        longname: Dynamic Bayesian Network
+    -   key: Ddic
+        shortname: DIC
+        longname: Deviance Information Criterion
+    -   key: doe
+        shortname: DOE
+        longname: Design of Experiments
+    -   key: eap
+        shortname: EAP
+        longname: Expected a posterior
+    -   key: ellgi
+        shortname: eLLGI
+        longname: estimated Log-likelihood Gain on the Intensities
+    -   key: em
+        shortname: EM
+        longname: Expectation Maximization
+    -   key: esda
+        shortname: ESDA
+        longname: exploratory sequential data analysis
+    -   key: ftp
+        shortname: FTP
+        longname: File Transfer Protocol
+    -   key: fortran
+        shortname: FORTRAN
+        longname: FORMULA TRANSLATION
+    -   key: ga
+        shortname: GA
+        longname: Genetic Algorithm
+    -   key: gam
+        shortname: GAM
+        longname: Generalized Additive Models
+    -   key: gee
+        shortname: GEE
+        longname: Generalized Esimating Equations
+    -   key: glm
+        shortname: GLM
+        longname: General Linear Models
+    -   key: glmm
+        shortname: GLMM
+        longname: General Linear Mixed Models
+    -   key: gmrf
+        shortname: GMRF
+        longname: Gaussian Markov Random Field
+    -   key: gmm
+        shortname: GMM
+        longname: Generalized Methods of Moments
+    -   key: gp
+        shortname: GP
+        longname: Gaussian Processes
+    -   key: hci
+        shortname: HCI
+        longname: Human-computer interactions
+    -   key: hm
+        shortname: HM
+        longname: Hierarchical Model
+    -   key: hmc
+        shortname: HMC
+        longname: Hamiltonian Monte Carlo or Hybrid MC
+    -   key: hmm
+        shortname: HMM
+        longname: Hidden Markov Model
+    -   key: hpdi
+        shortname: HPDI
+        longname: Highest Posterior Density Interval
+    -   key: ife
+        shortname: IFE
+        longname: Incomplete Factorial Experiments
+    -   key: imse
+        shortname: IMSE
+        longname: Integrated Mean Squared Error
+    -   key: inla
+        shortname: INLA
+        longname: Integrated Nested Laplace Approximation
+    -   key: irls
+        shortname: IRLS
+        longname: Iterative Re-Weighted Least-Squares
+    -   key: iwls
+        shortname: IWLS
+        longname: Iterative Weighted Least-Squares
+    -   key: iw
+        shortname: IW
+        longname: Inverse Wishart distribution
+    -   key: jags
+        shortname: JAGS
+        longname: Just Another Gibbs Sampler
+    -   key: lasso
+        shortname: LASSO
+        longname: least absobute shrinkage and selection operator
+    -   key: l-bfgs
+        shortname: L-BFGS
+        longname: limited-memory Broyden-Fletcher-Goldfarb-Shanno optimizer
+    -   key: lm-bfgs
+        shortname: LM-BFGS
+        longname: limited-memory Broyden-Fletcher-Goldfarb-Shanno optimizer
+    -   key: lm
+        shortname: LM
+        longname: Linear Models
+    -   key: lmm
+        shortname: LMM
+        longname: Linear Mixed Models
+    -   key: lkj
+        shortname: LKJ
+        longname: LKJ Distribution
+    -   key: llgi
+        shortname: LLGI
+        longname: log-likelihood Gain on the Intensities
+    -   key: loo
+        shortname: LOO
+        longname: Leave-One-Out
+    -   key: lsf
+        shortname: LSF
+        longname: Load Sharing Facility
+    -   key: mala
+        shortname: MALA
+        longname: Metropolis adjusted Langevin algorithms
+    -   key: map
+        shortname: MAP
+        longname: Maximum a posterior
+    -   key: maxs
+        shortname: MAXS
+        longname: Medium Angle X-ray Scattering
+    -   key: mcem
+        shortname: MCEM
+        longname: Monte Carlo Expectation Maximization
+    -   key: mcmc
+        shortname: MCMC
+        longname: Markov chain Monte Carlo
+    -   key: ml
+        shortname: ML
+        longname: Maximum Likelihood
+    -   key: mle
+        shortname: MLE
+        longname: Maximum Likelihood Estimate
+    -   key: mrf
+        shortname: MRF
+        longname: Markov Random Field
+    -   key: mlirt
+        shortname: MLIRT
+        longname: multilevel item response theory
+    -   key: nb
+        shortname: NB
+        longname: negative binomial
+    -   key: nb1
+        shortname: NB1
+        longname: negative binomial model 1
+    -   key: nb2
+        shortname: NB2
+        longname: negative binomial model 2
+    -   key: nimble
+        shortname: NIMBLE
+        longname: Numerical Inference Models Bayesian Likelihood Estimation
+    -   key: nuts
+        shortname: NUTS
+        longname: No U-Turn Sampler
+    -   key: obsmd
+        shortname: OBsMD
+        longname: Objective Bayesian Model Discrimination
+    -   key: odbc
+        shortname: ODBC
+        longname: Open Database Connectivity
+    -   key: ols
+        shortname: OLS
+        longname: Ordinary Least Squares
+    -   key: omd
+        shortname: OMD
+        longname: Objective Model Descrimination
+    -   key: pb
+        shortname: PB
+        longname: Plackett and Burman design
+    -   key: pdf
+        shortname: PDF
+        longname: Probability Density Function
+    -   key: pddf
+        shortname: PDDF
+        longname: Pairwise Distance Distribution Function (also P(r))
+    -   key: pdb
+        shortname: PDB
+        longname: Protein Data Bank
+    -   key: pMCMC
+        shortname: pMCMC
+        longname: particle MCMC
+    -   key: ppc
+        shortname: PPC
+        longname: Posterior Predictive Checking
+    -   key: ppl
+        shortname: PPL
+        longname: Probabilistic Programming Language
+    -   key: rmbms
+        shortname: RDBMS
+        longname: relational database management system
+    -   key: rest
+        shortname: REST
+        longname: Representational State Transfer
+    -   key: rmhmc
+        shortname: RMHMC
+        longname: Riemannian manifold Hamiltonian Monte Carlo
+    -   key: rj-mcmc
+        shortname: RJ-MCMC
+        longname: Reverse Jump-MCMC
+    -   key: rps
+        shortname: RPS
+        longname: Rotational Pseudosymmetry
+    -   key: rsm
+        shortname: RSM
+        longname: Response Surface Methods
+    -   key: saxs
+        shortname: SAXS
+        longname: Small Angle X-ray Scattering
+    -   key: sem
+        shortname: SEM
+        longname: Structural Equation Modeling
+    -   key: sfx
+        shortname: SFX
+        longname: Serial Femtosecond Crystallography
+    -   key: soap
+        shortname: SOAP
+        longname: Simple Object Access Processing
+    -   key: slurm
+        shortname: SLURM
+        longname: Simple Linux Utility for Resource Management
+    -   key: sms
+        shortname: SMS
+        longname: Sparse Matrix Sampling
+    -   key: smiles
+        shortname: SMILES
+        longname: Simplified Molecular Input Line Entry System
+    -   key: sql
+        shortname: SQL
+        longname: Structured query language
+    -   key: svm
+        shortname: SVM
+        longname: support vector machine
+    -   key: swaxs
+        shortname: SWAXS
+        longname: Small and Wide Angle X-ray Scattering
+    -   key: tps
+        shortname: TPS
+        longname: Translational Pseudo Symmetry
+    -   key: uml
+        shortname: UML
+        longname: Unified Modeling Language
+    -   key: vgam
+        shortname: VGAM
+        longname: Vector Generalizer Additive Model
+    -   key: vglm
+        shortname: VGLM
+        longname: Vector Generalizer Linear Model
+    -   key: waic
+        shortname: WAIC
+        longname: Watanabe-Akaile Information Criterion
+    -   key: waxs
+        shortname: WAXS
+        longname: Wide Angle X-ray Scattering
+    -   key: wsdl
+        shortname: WSDL
+        longname: Web services description language
+    -   key: xml
+        shortname: XML
+        longname: Extensible Markup Language
+    -   key: zinb
+        shortname: ZINB
+        longname: Zero-Inflated Negative Binomial distribution
+    -   key: zip
+        shortname: ZIP
+        longname: Zero-Inflated Poisson distribution
+    -   key: ztnb
+        shortname: ZTNB
+        longname: Zero-Truncated Negative Binomial distribution
+    -   key: ztp
+        shortname: ZTP
+        longname: Zero-Truncated Poisson distribution
+---
