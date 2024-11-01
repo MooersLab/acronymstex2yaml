@@ -8,19 +8,20 @@ This script converts acronyms from the LaTeX glossaries package format to the YA
 format for use in R Markdown and with the acronymsdown R package.
 
 The output file is not true YAML format because dashed lines flank it.
-It is really a RMarkdown file.
+It is a RMarkdown file.
 
 The script reads an input file containing multiple acronyms in the LaTeX format, 
 converts them, and writes the output to a specified yml file.
 The conversion is not an exact match in terms of whitespacing compared to the 
-examples given on the Github site for acronymsdown, but the output file is 
+examples given on the GitHub site for acronymsdown, but the output file is 
 read correctly.
 
 Usage:
     python acr2yaml.py <input_file> <output_file>
 
 
-Example: python test3.py ~/glossaries/acronyms.tex acronyms.yml
+Example: 
+   `python test3.py ~/glossaries/acronyms.tex acronyms.yml`
 
 ## Status
 
@@ -30,7 +31,7 @@ It works with Python 3.12.
 ## Update history
 
 |Version      | Changes                                                                                                                                  | Date                 |
-|:-----------|:------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
+|:------------|:------------------------------------------------------------------------------------------------------------------------------------------|:---------------------|
 | Version 0.1 |   Added badges, funding, and update table.  Initial commit.                                                                              | 2024 November 1      |
 
 ## Sources of funding
