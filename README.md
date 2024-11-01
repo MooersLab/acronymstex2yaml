@@ -21,7 +21,7 @@ Usage:
 
 
 Example: 
-   `python test3.py ~/glossaries/acronyms.tex acronyms.yml`
+   `python acr2yaml.py ~/glossaries/acronyms.tex acronyms.yml`
 
 ## Status
 
